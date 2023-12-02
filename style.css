@@ -2,8 +2,6 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    text-decoration: none;
-    outline: none;
     color: black;
     font-family: "Noto Sans", "Arial", sans-serif;
     font-style: normal;
@@ -184,28 +182,33 @@ body {
     line-height: 1.3;
 }
 
-.link {
+.card-info_link-to-shop-link {
     transition: all 0.2s ease-in-out 0s;
+    outline: none;
+    color: black;
+    text-decoration: none;
 }
 
 .card-info_link-to-shop-link img {
     padding-left: 10px;
 }
 
-.link:visited {
+.card-info_link-to-shop-link:visited {
     color: #797980;
 }
 
-.link:hover {
+.card-info_link-to-shop-link:hover {
     transition: all 0.2s ease-in-out 0s;
-    text-decoration-color: #0d0417;
+    color: black;
+    text-decoration-color: black;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
 }
 
-.link:focus,
-.link:active {
+.card-info_link-to-shop-link:focus,
+.card-info_link-to-shop-link:active {
     transition: all 0.2s ease-in-out 0s;
+    color: black;
     text-decoration-color: #f8d456;
     text-decoration-line: underline;
     text-decoration-thickness: 2px;
